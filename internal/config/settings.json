@@ -1,0 +1,29 @@
+{
+  "app": {
+    "serverName": "localhost",
+    "portRun": ":8090",
+    "serverURL": "192.168.150.95",
+    "logFile": "identification.log"
+  },
+  "secretKey": {
+    "key": "8b2679383683e5e6fda52861f83ed55aefaa9ec29b9a0bd11d2ef0b8b098634a"
+  },
+  "fileService" : {
+    "baseURL": "http://192.168.0.216:8000",
+    "username": "remoteidentification@humo.tj",
+    "password": "Remote#Identification$2020",
+    "tokenHeadName": "Token ",
+    "megafonLife": "e7d8497b-bd37-4e61-957b-96992732ec46",
+    "humoOnline": "034846fc-0033-448c-9a33-937399e700ec"
+  },
+  "oracleCFTdb" : {
+    "server": "192.168.0.222/work",
+    "user": "HUMO_ONLINE",
+    "password": "HUMO_2020_OOONLINEEE",
+    "_comment":"connectionCheckTime must be declared in minutes",
+    "connectionCheckTime": 10
+  },
+  "sendSMS": {
+    "url": "http://192.168.0.88:13003/cgi-bin/sendsms?user=humowallet&pass=Wi0LL3tH8MO&from=HUMO&coding=2&to=%s&text=%s&charset=utf-8"
+  }
+}
