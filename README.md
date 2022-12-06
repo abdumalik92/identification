@@ -1,3 +1,3 @@
 # identification
 
-Дистанционное идентификация клиентов
+Remote identification service for HumoOnline and MegafonLife apps
